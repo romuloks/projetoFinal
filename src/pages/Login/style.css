@@ -1,0 +1,27 @@
+.container {
+    min-height: 100vh; width: 100vw;
+    background: linear-gradient(#2d97d8, #ffff48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #1b4ae6;
+}
+
+.textos1 {
+    font-weight: bold;
+}
+
+.imagem {
+    background-image: url("https://canaldoensino.com.br/blog/wp-content/uploads/2018/12/tipo-de-educacao.jpg");
+    min-height: 100vh; width: 100vh;
+    background-repeat: 'no-repeat';
+    background-size: cover;
+    background-position: 'center';
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}

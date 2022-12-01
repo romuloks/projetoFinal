@@ -1,0 +1,32 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: #1b4ae6;
+}
+.cursor {
+    cursor: pointer;
+    color: white;
+}
+.cursor2 {
+    height: 50px; width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in .2s;
+}
+.cursor2:hover {
+    background-color: #2d97d8;
+    border-bottom: 3px solid #1b4ae6;
+}
+.text-decorator-none {
+    text-decoration: none;
+}
+
+.input {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
